@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/* The following are for buttons in the login page */
+.btn {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn1 {
+  background-color: white; 
+  color: black; 
+  border: 1px solid #008CBA;
+  width: 100%; 
+  display:block;
+  padding: 9px 14px; 
+  font-size: 15px; 
+  border-radius: 5px; 
+}
+
+.btn1:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+* {box-sizing:border-box; }
+
+html { width: 100%; height:100%;}
+
+/* This is for the entire HTMP Page's background */
+body { 
+	width: 100%;
+	height:100%;
+	font-family: 'Open Sans', sans-serif;
+	background: #092756;
+
+}
+
+/* This is for the login page's elements*/
+.login { 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -150px;
+	width:300px;
+	height:300px;
+}
+
+.login h1 { color: #fff; text-shadow: 0 0 10px rgba(0,0,0,0.3); letter-spacing:1px; text-align:center; }
+
+/* This is for the input fields in the login page */
+input { 
+	width: 100%; 
+	margin-bottom: 10px; 
+	background: rgba(0,0,0,0.3);
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	color: #fff;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+}
+
+input:focus { 	box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
+
+/* This colours the error message in the login page */
+.error {color: #FF0000;}
+
+/* This is to format the Div in the User Display page */
+.wrapper{
+	width: 800px;
+        margin: 0 auto;
+	color: #fff;
+}
+
+.wrapper h1 { color: #fff; text-shadow: 0 0 10px rgba(0,0,0,0.3); letter-spacing:1px; text-align:center; }
+
+
+
+/* This is to change the font colour of all hyperlinks */
+a {
+    color: white;
+}
+
